@@ -1,0 +1,36 @@
+body {
+  background-image: url("");
+  background-size: cover;
+}
+
+.title {
+  color: #5000a0;
+  font-size: 80px;
+}
+
+.definition{
+  color: #000000;
+  font-family: "Times New Roman";
+  text-align: center;
+}
+
+.fadeIn{
+  animation-name:fadeInAnime;
+  animation-duration:4s;
+  animation-fill-mode:forwards;
+  opacity:0;
+  }
+
+  @keyframes fadeInAnime{
+    from {
+      opacity: 0;
+      font-size: 20px;
+      padding-top: 0px;
+    }
+
+    to {
+      opacity: 1;
+      font-size: 80px;
+      padding-top: 200px;
+    }
+  }
